@@ -9,13 +9,13 @@ mysql> create database spring_social;
 
 - 코드는 application.properties의 설정 파일만 수정하여 사용하시면 됩니다.
 ```properties
-#GoogleOAuth
+#Google OAuth
 spring.security.oauth2.client.registration.google.client-id={client-id}
 spring.security.oauth2.client.registration.google.client-secret={client-secret}
 spring.security.oauth2.client.registration.google.redirect-uri=http://localhost:8080/oauth2/callback/google
 spring.security.oauth2.client.registration.google.scope=email,profile
 
-#GithubOAuth
+#Github OAuth
 spring.security.oauth2.client.registration.github.client-id={client-id}
 spring.security.oauth2.client.registration.github.client-secret={client-secret}
 spring.security.oauth2.client.registration.github.redirect-uri=http://localhost:8080/oauth2/callback/github
