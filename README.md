@@ -1,5 +1,5 @@
 # Spring-OAuth2-Login
-Spring 3.0.5 ver. Social OAuth2 Login with Google and github  
+Spring 3.0.5 ver. Social OAuth2 Login with Google and github and kakao and Naver
 
 # Manual
 - spring_social의 이름을 가진 DB를 구축합니다.
